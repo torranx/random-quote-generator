@@ -1,0 +1,61 @@
+.centerContainer {
+    position: absolute;
+    bottom: 0; 
+    right:0;
+    left:0;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+}
+
+.contentContainer {
+    position:relative;
+    background-color: #f5f5f5;
+    border-radius: 1.5rem; width: 50%;
+    width:100%;
+    height:1%;
+    overflow: hidden;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px black;
+}
+
+.quoteStyle {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 5vh;
+    text-align: center;
+    line-height: 125%;
+}
+
+.authorStyle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3vh;
+    align-self: flex-end;
+}
+
+.btn {
+    color:white;
+    font-style: 'Work Sans', sans-serif;
+    font-size: 2vh;
+}
+
+a {
+    color:white
+}
+/* For extra small devices */
+@media only screen and (max-width: 600px) {
+    .quoteStyle {
+        font-size: 7vw;
+    }
+
+    .authorStyle, .btn {
+        font-size: 5vw;
+    }
+}
